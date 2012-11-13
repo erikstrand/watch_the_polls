@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+   <title>Watch the Polls</title>
+   <script type="text/javascript" src="d3.js"></script>
+   <script type="text/javascript" src="polls2.js"></script>
+   <link rel="stylesheet" type="text/css" href="watch_the_polls.css"></link>
+</head>
+
+<body>
+
+<header>
+   <h1>Watch the Polls</h1>
+</header>
+
+<div id="d3_map_timeline"> </div> 
+
+<div id="bottom">
+   <div id="d3_stats"></div>
+
+   <div id="description">
+      <h2>What do these numbers mean?</h2>
+      <p>These numbers come from hundreds of state and national polls aggregated by <a href="http://www.huffingtonpost.com/">The Huffington Post</a> and made available through their <a href="http://elections.huffingtonpost.com/pollster/api">Pollster API</a>. Raw polling numbers are related to &#8212 but not the same as &#8212 the probabilities that Obama or Romney will win a given state.</p>
+      <h2>Why are there states without data?</h2>
+      <p>The Huffington Post has not made the necessary data for these states available through their api. However, these states would be some of the least interesting to watch &#8212 Hawaii, Delaware, and Vermont have consistently supported Obama for months; the others have consistently supported Romney.</p>
+
+      <p>Created by <a href="mailto:watchthepolls@erikstrand.net">Erik Strand</a> using <a href="http://d3js.org/">D3.js</a> and the <a href="http://elections.huffingtonpost.com/pollster/api">Huffington Post Pollster API</a>.</p>
+   </div>
+</div>
+
+</body>
+
+</html>

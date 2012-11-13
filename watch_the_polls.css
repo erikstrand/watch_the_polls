@@ -1,0 +1,236 @@
+html {
+   background: #eee;
+   margin: 1em auto 0px auto;
+   width: 1000px;
+   font-family: "Helvetica", "Arial", sans-serif;
+}
+
+body {
+   margin: 0px 0px 4em 0px;
+   padding: 0px;
+   border: none;
+   background: #eee;
+   font-family: "Helvetica", "Arial", sans-serif;
+}
+
+div {
+   margin: 0px;
+   border: 0px;
+   padding: 0px;
+}
+
+p, select {
+   font-family: "Helvetica", "Arial", sans-serif;
+   font-size: 0.9em;
+   line-height: 150%;
+   margin: 0px 0px 2em 0px;
+}
+
+header {
+   margin: 0em auto 2.5em auto;
+}
+
+h1 {
+   font-family: "Helvetica", "Arial", sans-serif;
+   font-size: 3em;
+   font-weight: 300;
+   color: #333;
+   margin: 0em;
+   border: none;
+   text-rendering: optimizeLegibility;
+   border-bottom: 3px solid #333;
+}
+
+h2 {
+   font-family: "Helvetica", "Arial", sans-serif;
+   font-size: 1.5em;
+   font-weight: 300;
+   color: #333;
+   margin: 0.5em 0em 0.5em 0em;
+   border: none;
+   text-rendering: optimizeLegibility;
+}
+
+svg {
+   border: none;
+}
+
+#d3_map_timeline {
+   margin: 0em 0em 3em 0em;
+}
+
+#bottom {
+   position: relative;
+}
+
+#description {
+   position: absolute;
+   top: 0px;
+   margin: 0px 0px 0px 370px;
+}
+
+.state {
+   stroke: #333;
+   stroke-width: 2;
+   shape-rendering: geometricPrecision;
+}
+
+.state.highlight {
+   stroke: #fff;
+   stroke-width: 2;
+}
+
+.map_key {
+   font-family: "Helvetica", "Arial", sans-serif;
+   font-weight: 300;
+   font-size: 0.8em;
+   fill: #333;
+}
+
+.key_border {
+   stroke: #333;
+   stroke-width: 1;
+   shape-rendering: crispEdges;
+}
+
+.key_line {
+   stroke: #fff;
+   stroke-width: 2;
+   shape-rendering: crispEdges;
+}
+
+#data_g {
+   text-anchor: end;
+   color: #333;
+   font-family: "Helvetica", "Arial", sans-serif;
+}
+
+#data_g .data_date {
+   font-size: 3em;
+   font-weight: 600;
+   stroke: none;
+   fill: #333;
+   font-family: "Courier New", "Courier", monospace;
+}
+
+#data_g .data_date .data_day {
+   font-size: 1.6em;
+}
+
+#data_g .data_state {
+   font-size: 1em;
+   font-weight: 300;
+   stroke: none;
+   fill: #333;
+   text-rendering: optimizeLegibility;
+}
+
+.timeline_baseline {
+   stroke: #333;
+   stroke-width: 3;
+   shape-rendering: crispEdges;
+}
+
+.timeline_center_field {
+   fill: transparent;
+   stroke: none;
+}
+
+.timeline_needle {
+   stroke: #083;
+   stroke-width: 5;
+   fill: #333;
+   shape-rendering: geometricPrecision;
+}
+
+.timeline_dot_g {
+   stroke: none;
+   fill: #333;
+   shape-rendering: geometricPrecision;
+}
+
+.timeline_tick {
+   stroke: #333;
+   stroke-width: 1;
+   shape-rendering: crispEdges;
+}
+
+.timeline_label {
+   font-size: 0.7em;
+   font-family: "Helvetica", "Arial", sans-serif;
+   text-rendering: optimizeLegibility;
+}
+
+.timeline_play_button {
+   stroke: none;
+   fill: #333;
+   cursor: pointer;
+   shape-rendering: cripsEdges;
+}
+
+.timeline_pause_rect {
+   stroke: none;
+   fill: #333;
+   shape-rendering: cripsEdges;
+}
+
+.timeline_pause_button {
+   stroke: none;
+   fill: transparent;
+   cursor: pointer;
+}
+
+.timeline_stalk {
+   stroke: #333;
+   stroke-width: 1;
+   shape-rendering: crispEdges;
+}
+
+.timeline_event_text {
+   font-size: 0.8em;
+   font-family: "Helvetica", "Arial", sans-serif;
+   text-rendering: optimizeLegibility;
+}
+
+.stats_row.highlight {
+   font-weight: bold;
+}
+
+.stats_row_background {
+   stroke: none;
+   fill: transparent;
+}
+
+.highlight .stats_row_background {
+   stroke: #888;
+   stroke-weight: 2;
+}
+.stats_label_row_line {
+   stroke: #333;
+   stroke-width: 1;
+   shape-rendering: crispEdges;
+}
+
+.stats_row_line {
+   stroke: #888;
+   stroke-width: 1;
+   shape-rendering: crispEdges;
+}
+
+.stats_label_row {
+   font-family: "Helvetica", "Arial", sans-serif;
+}
+
+.stats_label_field {
+   cursor: pointer;
+}
+
+.stats_row {
+   font-family: "Helvetica", "Arial", sans-serif;
+   font-size: 0.9em;
+}
+
+.stats_field {
+   stroke: none;
+   fill: transparent;
+}
