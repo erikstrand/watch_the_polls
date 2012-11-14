@@ -1,0 +1,8 @@
+# ignore poll_data.json - it's rather large and it autogenerate by the scripts anyway
+poll_data.json
+
+# ignore all .pyc files
+*.pyc
+
+# ignore all .swp files - I always have vim open so I always have them
+*.swp
